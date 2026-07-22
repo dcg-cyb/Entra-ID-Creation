@@ -24,6 +24,6 @@ I enabled MFA on my admin account because privileged accounts are the highest-ri
 
 In addition to my own user account, I have created 3 test users that will represent different levels of access to internal systems.
 
-External Contractor - Requires limited access as a third-party and should be deemed as a potential risk, therefore will not receive long-term access.
-Finance Manager - Internal user who will require privileged access to Finance related data & applications.
-New Hire User - Least privilege access. Business unit application & data access with read permissions unless stated otherwise. 
+**External Contractor** - Requires limited access as a third-party and should be deemed as a potential risk, therefore will not receive long-term access.
+**Finance Manager** - Internal user who will require privileged access to Finance related data & applications.
+**New Hire User** - Least privilege access. Business unit application & data access with read permissions unless stated otherwise. 
