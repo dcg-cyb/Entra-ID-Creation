@@ -18,7 +18,7 @@ I enabled MFA on my admin account because privileged accounts are the highest-ri
 <img width="974" height="443" alt="Screenshot 2026-07-22 at 14 29 23" src="https://github.com/user-attachments/assets/8b3dc0f6-fff7-44b6-9cba-c2bb66aca459" />
 <img width="974" height="679" alt="Screenshot 2026-07-22 at 14 37 27" src="https://github.com/user-attachments/assets/bc984bae-09c5-4557-a255-e6195a163d4a" />
 
-## New Test Users
+## New Test Users Creation
 
 <img width="987" height="463" alt="Screenshot 2026-07-22 at 14 43 22" src="https://github.com/user-attachments/assets/ddb2ee91-d4a6-4135-bf63-90b8b82c8b75" />
 
@@ -29,3 +29,15 @@ In addition to my own user account, I have created 3 test users that will repres
 **Finance Manager** - Internal user who will require privileged access to Finance related data & applications.
 
 **New Hire User** - Least privilege access. Business unit application & data access with read permissions unless stated otherwise. 
+
+## Group Creation
+
+<img width="993" height="497" alt="Screenshot 2026-07-22 at 15 14 40" src="https://github.com/user-attachments/assets/f059a787-4a37-42cf-8065-4952de34a0a1" />
+
+**All users** - 
+
+**Contractors** - 
+
+**Managers** - 
+
+**Privileged Admins** - 
