@@ -69,3 +69,6 @@ I reviewed Microsoft EntraID audit logs for the Privileged Admins group. I enabl
 <img width="807" height="282" alt="Screenshot 2026-08-21 at 12 17 26" src="https://github.com/user-attachments/assets/2adcfcb0-24ec-484a-a7c2-29119bdf4afc" />
 <img width="891" height="523" alt="Screenshot 2026-08-21 at 12 17 00" src="https://github.com/user-attachments/assets/2d21281f-4aaa-4af8-8176-774288ffa395" />
 I reviewed Microsoft Entra sign-in logs for my administrator account. The logs provide visibility into authentication attempts, including outcome, date and time, application, source IP address, and available authentication details. In a production environment, this information supports investigation of suspicious sign-ins and detection of abnormal access patterns. Please note, 'IP addresses' & 'Resource ID' have been removed for confidentiality. I also experimented with VPN enablement in Germany to showcase 'Location' variety. 
+
+
+## RBAC Matrix
