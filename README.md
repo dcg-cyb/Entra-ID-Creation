@@ -73,6 +73,7 @@ I reviewed Microsoft Entra sign-in logs for my administrator account. The logs p
 
 ## RBAC Matrix
 <img width="723" height="353" alt="Screenshot 2026-08-21 at 12 44 45" src="https://github.com/user-attachments/assets/c3dd8cec-124e-4162-8b95-b5253cc5e443" />
+
 My lab uses a group-based access design: standard, manager, contractor, and privileged identities are separated into clearly named groups. Only my designated administrator account holds the Global Administrator role. I reviewed Helpdesk Administrator as a lower-privilege alternative but did not assign it, because there is no current support requirement in this small lab.
 
 This Matrix would be either more established in a live environment or fluid in a growing environment where more business units and variables need to be considered. 
