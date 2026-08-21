@@ -1,0 +1,7 @@
+| User type | Example lab identity | Group | Entra role/access | Why this access is appropriate |
+|---|---|---|---|---|
+| Privileged Administrator | Your admin account | Privileged Admins | Global Administrator | Required only for tenant administration and lab configuration; protected with MFA |
+| Standard User | New Hire User | All Users | No admin role | Requires standard access only; cannot change tenant configuration |
+| Manager | Department Manager | All Users, Managers | No admin role | Represents a business manager; no Entra admin permissions required |
+| Contractor | External Contractor | All Users, Contractors | No admin role | Limited, temporary business access; no privileged permissions |
+| Helpdesk Administrator | None assigned | None | Helpdesk Administrator — reviewed only, not assigned | Would be used instead of Global Administrator for eligible support tasks such as password assistance |
