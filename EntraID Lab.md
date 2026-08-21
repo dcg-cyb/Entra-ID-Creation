@@ -157,3 +157,9 @@ Evidence captured during this lab includes:
 - Least privilege reduces the impact of compromised accounts and administrative mistakes.
 - Audit and sign-in logs support accountability, detection, and investigation.
 - Identity governance requires ongoing lifecycle management, not just account creation.
+
+# Notes
+
+This folder contains sanitised screenshots captured during the Microsoft Entra ID Security Lab.
+
+Before publishing, screenshots were reviewed to avoid exposing passwords, temporary credentials, tenant IDs, IP addresses, user principal names, or other sensitive information.
