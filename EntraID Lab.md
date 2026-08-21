@@ -80,3 +80,80 @@ This Matrix would be either more established in a live environment or fluid in a
 
 ## JML Workflow
 https://github.com/dcg-cyb/Entra-ID-Creation/blob/64d61a1b9fa2306eb6274533a266311dc5c11215/docs/joiner-mover-leaver.md
+
+# Summary
+## Microsoft Entra ID Security Lab
+
+## Overview
+
+This project documents my hands-on beginner Microsoft Entra ID lab. I built and documented a small identity environment to demonstrate core Identity and Access Management (IAM) principles, including MFA, Security defaults, least privilege, role-based access control, identity monitoring, audit logging, and joiner-mover-leaver processes.
+
+## Lab Objectives
+
+- Create and manage test users and security groups.
+- Register MFA for a privileged administrator account.
+- Review Microsoft Entra Security defaults as the baseline control available in my tenant.
+- Apply least-privilege thinking to privileged roles and group membership.
+- Review audit logs and sign-in logs for identity monitoring.
+- Document an RBAC model and Joiner–Mover–Leaver workflow.
+- Explain how Entra logs could be forwarded to a SIEM in a production environment.
+
+## Lab Design
+
+| Identity type | Example identity | Group | Administrative access |
+|---|---|---|---|
+| Privileged Administrator | Darius Goldsmith | Privileged Admins | Global Administrator |
+| Standard User | New Hire User | All Users | No admin role |
+| Manager | Department Manager | All Users, Managers | No admin role |
+| Contractor | External Contractor | All Users, Contractors | No admin role |
+
+## Security Controls Demonstrated
+
+### MFA and Security Defaults
+
+MFA was registered for my privileged administrator account. Security defaults were already enabled in the tenant, providing baseline identity protection including MFA requirements and legacy authentication protection.
+
+### Least Privilege and RBAC
+
+Only my designated administrator account holds the Global Administrator role. Standard users, managers, and contractors do not hold Entra administrative roles. I reviewed the Helpdesk Administrator role as a lower-privilege option for support tasks, but no account was assigned because my lab has no current support requirement.
+
+- [View the RBAC matrix](docs/rbac-matrix.md)
+
+### Monitoring and Auditability
+
+I reviewed Microsoft Entra audit logs for privileged-group changes and sign-in logs for my administrator account. These logs provide evidence of identity changes and authentication activity. In a production environment, diagnostic settings could forward Entra audit and sign-in logs to a SIEM such as Microsoft Sentinel for centralised monitoring, alerting, investigation, and retention.
+
+### Joiner–Mover–Leaver Governance
+
+I documented a Joiner–Mover–Leaver process to show how user access should be created, reviewed during role changes, and removed during offboarding.
+
+- [View the JML workflow](docs/joiner-mover-leaver.md)
+
+## Licensing Limitation and Future Design
+
+This tenant does not include the Microsoft Entra ID P1 licence required for Conditional Access. Instead, Security defaults provide the available baseline protection in this lab.
+
+In a production design with Entra ID P1 or P2, I would create a Conditional Access policy to require MFA for privileged administrators, initially deploy it in Report-only mode, review the impact, and then enforce it. I would also investigate device, location, and sign-in-risk conditions based on the organisation’s requirements.
+
+## Evidence
+
+Evidence captured during this lab includes:
+
+- User and group configuration screenshots.
+- MFA registration evidence.
+- Security defaults review.
+- Global Administrator and Helpdesk Administrator role review.
+- Privileged Admins group membership review.
+- Microsoft Entra audit-log review.
+- Administrator sign-in-log review.
+- RBAC matrix and Joiner–Mover–Leaver documentation.
+
+> Screenshots have been reviewed before publication to avoid exposing passwords, tenant IDs, IP addresses, or other sensitive information.
+
+## Key Learning Outcomes
+
+- Identity is a security perimeter: compromised credentials can lead directly to unauthorised access.
+- MFA and Security defaults provide foundational protection for identity-based attacks.
+- Least privilege reduces the impact of compromised accounts and administrative mistakes.
+- Audit and sign-in logs support accountability, detection, and investigation.
+- Identity governance requires ongoing lifecycle management, not just account creation.
