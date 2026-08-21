@@ -78,4 +78,4 @@ My lab uses a group-based access design: standard, manager, contractor, and priv
 This Matrix would be either more established in a live environment or fluid in a growing environment where more business units and variables need to be considered. 
 
 ## JML Workflow
-docs/joiner-mover-leaver.md
+https://github.com/dcg-cyb/Entra-ID-Creation/blob/64d61a1b9fa2306eb6274533a266311dc5c11215/docs/joiner-mover-leaver.md
