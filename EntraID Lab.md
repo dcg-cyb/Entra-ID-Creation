@@ -117,7 +117,7 @@ MFA was registered for my privileged administrator account. Security defaults we
 
 Only my designated administrator account holds the Global Administrator role. Standard users, managers, and contractors do not hold Entra administrative roles. I reviewed the Helpdesk Administrator role as a lower-privilege option for support tasks, but no account was assigned because my lab has no current support requirement.
 
-- [View the RBAC matrix](rbac-matrix.md)
+- [View the RBAC matrix](RBAC Matrix.md)
 
 ### Monitoring and Auditability
 
