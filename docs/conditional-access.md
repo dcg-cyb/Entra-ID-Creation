@@ -1,5 +1,5 @@
 # Conditional Access
-AS this is a home lab, I do not have sufficient access to create conditional access policies however here are a range of policies I would look to enforce. 
+As this is a home lab, I do not have sufficient access to create conditional access policies however here are a range of policies I would look to enforce. 
 
 - If a user signs in from a remote location in which the organisation DOES NOT operate or have entities in, access should be blocked
 - If a user leverage a legacy email client (over browser email use), access should be blocked
